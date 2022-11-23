@@ -4,5 +4,7 @@
 ### If player 2 wins, they get full bet. 
 ### If they lose, they lose all the bet.
 ###  If it's a draw, they get half of the bet.
+
+### *** Some notices
 #### The method pickcard() should actuallly named start()
 #### When a Player object is created the game is automatically started (in constructor) so there's no need to extra call the start method.
