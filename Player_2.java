@@ -8,7 +8,7 @@ public class Player_2 extends Player{
         super.bet();
     }
     public void pickCard(){
-        //int rand = 0;
+  
         String ans = "";
         int count = 0;
        while(!ans.equals("yes") || count<=5){
@@ -28,7 +28,7 @@ public class Player_2 extends Player{
           ans = scan.nextLine();
           count++;
        } 
-    //    super.generatedNumber = rand;
+
     }
 
 
